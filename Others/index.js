@@ -48,7 +48,7 @@ function createLinkContainer(){
 
     linkToRef.setAttribute("id", "-link-ref");
     linkToRef.setAttribute("href", "https://www.youtube.com/watch?v=XPv1jx1GtUo");
-    linkToRef.textContent = "Link To References";
+    linkToRef.textContent = "Websites referenced from Youtube video";
 
     linkContainer.appendChild(airsoftSubheading);
     addToList(imperiumAirsoft);
@@ -60,7 +60,6 @@ function createLinkContainer(){
     addToList(sentinelAirsoft);
     addToList(reforgerAirsoft);
     addToList(phoenixAirsoft);
-    //addToList(linkToRef);
     linkContainer.appendChild(linkToRef);
 }
 
