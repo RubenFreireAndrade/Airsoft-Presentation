@@ -14,6 +14,7 @@ function createLinkContainer(){
     const sentinelAirsoft = document.createElement('a');
     const reforgerAirsoft = document.createElement('a');
     const phoenixAirsoft = document.createElement('a');
+    const linkToRef = document.createElement('a');
 
     airsoftSubheading.setAttribute("id", "-subheading-text");
     airsoftSubheading.textContent = "Websites:";
@@ -45,8 +46,11 @@ function createLinkContainer(){
     phoenixAirsoft.setAttribute("href", "https://www.phoenix-airsoft.co.uk");
     phoenixAirsoft.textContent = "Phoenix Airsoft";
 
-    linkContainer.appendChild(airsoftSubheading);
+    linkToRef.setAttribute("id", "-link-ref");
+    linkToRef.setAttribute("href", "https://www.youtube.com/watch?v=XPv1jx1GtUo");
+    linkToRef.textContent = "Link To References";
 
+    linkContainer.appendChild(airsoftSubheading);
     addToList(imperiumAirsoft);
     addToList(invictaBattlefield);
     addToList(dogtagAirsoft);
@@ -56,6 +60,8 @@ function createLinkContainer(){
     addToList(sentinelAirsoft);
     addToList(reforgerAirsoft);
     addToList(phoenixAirsoft);
+    //addToList(linkToRef);
+    linkContainer.appendChild(linkToRef);
 }
 
 function addToList(name){
@@ -86,6 +92,7 @@ function showIntroduction(){
     let welcomeStr = "You have been invited to an Airsoft event.";
     return welcomeStr;
 }
+
 createTitleContainer();
 createIntroContainer();
 createLinkContainer();

@@ -16,8 +16,8 @@
 #-title-container {
     border-style: solid;
     border-width: 2pt;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     background-color: deepskyblue;
 }
 
@@ -35,8 +35,8 @@
     background-color: rgb(224, 224, 224);
     border-style: solid;
     border-width: 2pt;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 #-intro-text {
@@ -56,14 +56,14 @@
     border-width: 2pt;
     background-color: white;
 
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 #-subheading-text {
-    margin-left: 10%;
+    text-align: center;
 
     color: black;
     font-family: 'Quicksand', sans-serif;
@@ -72,12 +72,21 @@
     text-decoration: underline;
 }
 
+#-link-ref {
+    color: rgb(0, 110, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 5%;
+}
+
 li {
     list-style-type: none;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 10%;
     display: block;
+    text-align: center;
 }
 
 a {
