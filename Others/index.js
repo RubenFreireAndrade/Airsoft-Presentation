@@ -20,34 +20,54 @@ function createLinkContainer(){
     airsoftSubheading.textContent = "Websites:";
 
     imperiumAirsoft.setAttribute("href", "https://imperiumairsoft.com");
+    imperiumAirsoft.setAttribute("target", "_blank");
+    imperiumAirsoft.setAttribute("rel", "noreferrer noopener");
     imperiumAirsoft.textContent = "Imperium Airsoft";
 
     invictaBattlefield.setAttribute("href", "https://www.invictabattlefield.co.uk");
+    invictaBattlefield.setAttribute("target", "_blank");
+    invictaBattlefield.setAttribute("rel", "noreferrer noopener");
     invictaBattlefield.textContent = "Invicta Battlefield";
 
     dogtagAirsoft.setAttribute("href", "https://www.dogtagairsoft.co.uk");
+    invictaBattlefield.setAttribute("target", "_blank");
+    invictaBattlefield.setAttribute("rel", "noreferrer noopener");
     dogtagAirsoft.textContent = "Dogtag Airsoft";
 
     incursionAirsoft.setAttribute("href", "https://www.incursionairsoft.co.uk");
+    incursionAirsoft.setAttribute("target", "_blank");
+    incursionAirsoft.setAttribute("rel", "noreferrer noopener");
     incursionAirsoft.textContent = "Incursion Airsoft";
 
     ultimateWargames.setAttribute("href", "https://www.ultimatewargames.net");
+    ultimateWargames.setAttribute("target", "_blank");
+    ultimateWargames.setAttribute("rel", "noreferrer noopener");
     ultimateWargames.textContent = "Ultimate Wargames";
     
     splatoonAirsoft.setAttribute("href", "https://splatoon.co.uk/airsoft/");
+    splatoonAirsoft.setAttribute("target", "_blank");
+    splatoonAirsoft.setAttribute("rel", "noreferrer noopener");
     splatoonAirsoft.textContent = "Splatoon";
 
     sentinelAirsoft.setAttribute("href", "https://sentinelairsoft.co.uk");
+    sentinelAirsoft.setAttribute("target", "_blank");
+    sentinelAirsoft.setAttribute("rel", "noreferrer noopener");
     sentinelAirsoft.textContent = "Sentinel Airsoft";
 
     reforgerAirsoft.setAttribute("href", "https://www.reforgerairsoft.com/home");
+    reforgerAirsoft.setAttribute("target", "_blank");
+    reforgerAirsoft.setAttribute("rel", "noreferrer noopener");
     reforgerAirsoft.textContent = "Reforger Airsoft";
 
     phoenixAirsoft.setAttribute("href", "https://www.phoenix-airsoft.co.uk");
+    phoenixAirsoft.setAttribute("target", "_blank");
+    phoenixAirsoft.setAttribute("rel", "noreferrer noopener");
     phoenixAirsoft.textContent = "Phoenix Airsoft";
 
     linkToRef.setAttribute("id", "-link-ref");
     linkToRef.setAttribute("href", "https://www.youtube.com/watch?v=XPv1jx1GtUo");
+    linkToRef.setAttribute("target", "_blank");
+    linkToRef.setAttribute("rel", "noreferrer noopener");
     linkToRef.textContent = "Websites referenced from Youtube video";
 
     linkContainer.appendChild(airsoftSubheading);
